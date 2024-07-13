@@ -37,3 +37,37 @@ section{
     height: 500px;
 } 
 
+.middle-banner h1 {
+    font-size: 50px;
+}
+.middle-banner .name-highlight {
+    color: blue;
+}
+.middle-banner .half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+.middle-banner .half-width img {
+    width: 100%;
+    margin-top: 32px;
+    margin-left: -23px;
+} 
+.middle-banner {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.middle-banner .link-button {
+    text-decoration: none;
+    border: 58px;
+    background-color: orange;
+    padding: 8px 9px;
+    color: white;
+    border-radius: 18px;
+    font-weight: 700;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+}
+section .middle-banner {
+    height: 500px;
+}
