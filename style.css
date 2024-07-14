@@ -5,16 +5,16 @@ body{
 h1{
     font-size: 50px;
 }
-.name-highlight{
+.blue-highlight{
     color: blue;
 }
-.top-banner .half-width{
+.half-width{
     width: 40%;
     float:left;
     margin-left: 5% ;
     padding-left: 5%;
 }
-.top-banner .half-width img{
+.half-width img{
     width: 100%;
     margin-top: 32px;
     margin-left: -23px;
@@ -32,42 +32,75 @@ h1{
     border-radius: 18px;
     font-weight: 700;
     background-image: linear-gradient(45deg, lightSalmon, tomato);
+    margin: 43%;
 }
 section{
     height: 500px;
 } 
-
-.middle-banner h1 {
-    font-size: 50px;
-}
-.middle-banner .name-highlight {
-    color: blue;
-}
-.middle-banner .half-width {
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 5%;
-}
-.middle-banner .half-width img {
-    width: 100%;
-    margin-top: 32px;
-    margin-left: -23px;
-} 
 .middle-banner {
+    margin-top: 233px;
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
 }
-.middle-banner .link-button {
-    text-decoration: none;
-    border: 58px;
-    background-color: orange;
-    padding: 8px 9px;
-    color: white;
-    border-radius: 18px;
-    font-weight: 700;
-    background-image: linear-gradient(45deg, lightSalmon, tomato);
+
+.experience{
+        margin-top: 233px;
+        background-image: url(images/dream-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
 }
-section .middle-banner {
-    height: 500px;
+#experience-h2 {
+    margin: 37px 65px;
+    color: red;
+}
+.single-experience {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 57%;
+    width: 32%;
+    margin-left: 111px;
+    margin-right: 7px;
+}
+#first-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#second-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #fc5c7d, #6a82fb);
+    border-image-slice: 1;
+}
+footer{
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+    
+.footer-content p {
+    margin-bottom: 10px;
+}
+    
+.footer-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+    
+.footer-content li {
+     display: inline-block;
+    margin: 0 10px;
+}
+    
+.footer-content a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.links_to_other_pages li{
+    display: inline-block;
+    margin: 0 10px;
+}
+footer img {
+    height: 29px;
+    border-radius: 44%;
 }
